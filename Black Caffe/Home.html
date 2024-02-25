@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Black Caffe</title>
+<link rel="shortcut icon" href="BClogo.png" type="image/x-icon">
+<link rel="stylesheet" href="home.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div class="scrollbar">
+	<body>
+<header>
+	<div class="logo1">
+	<a href="Home.html"><img id="homelogo"src="BClogo.png" alt="BlackCaffelogo" style="border:6px double black;width: 130px;height: 130px;background-color: white;border-radius: 100%;"></a>
+</div>
+<div class="h1b"><h1>Black Caffe</h1></div>
+<div class="smi">
+	<ul>
+	<a href="https://www.facebook.com/Black-Caffee-113467317075741">
+		<img src="facebookicon.png" alt="facebook icon"></img>
+	</a>
+	<a href="https://www.instagram.com/black_caffee1/">
+		<img src="instagram.png" alt="instagram icon"></img>
+	</a>
+	</ul>
+	</div>
+<span>
+<nav>
+<ul class="dir">
+<li><a href="Home.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>	 
+<li><a href="employees.html">Employees</a></li>
+<li><a href="about us.html">About Us</a></li>
+</ul>
+</nav>
+</span>
+</header>
+	<div class="container">
+	<div class="content">
+<section>
+	<div class="slider">
+		<img class="slide" src="blackcaffe.jpg" alt="black">
+		<img class="slide" src="place.jpg" alt="place">
+		<img class="slide" src="ice cream.jpg" alt="icecream">
+		<img class="slide" src="sanspestian.jpg" alt="san">
+		<img class="slide" src="pitza.jpg" alt="pitza">
+		<a class="prev" onclick="changeSlide(-1)">&#10094</a>
+		<a class="next" onclick="changeSlide(1)">&#10095</a>
+	</div>
+	<script>
+	var slideIndex = 0;
+	showSlide(slideIndex);
+
+	function changeSlide(n) {
+		showSlide(slideIndex += n);
+	}
+
+	function showSlide(n) {
+	var slides = document.getElementsByClassName("slide");
+	if (n >= slides.length) {
+		slideIndex = 0;
+	} else if (n < 0) {
+		slideIndex = slides.length - 1;
+	}
+	for (var i = 0; i < slides.length; i++) {
+		slides[i].style.display="none";
+	}
+	slides[slideIndex].style.display = "block"
+	}
+	</script>
+	<div class="site-des">
+		<h2 class="translate">Wellcome to Black Caffe</h2>
+        <p class="translate">There is a special section for families</p>
+		<p class="translate">Quiet sessions</p>
+		<p class="translate">Separate sessions for young men</p>
+	</div>
+</section>
+	</div>
+	</div>
+
+<footer>
+<div class="fp">	
+<p class="translate">Telephone: <span class="phnumber">&#128222;042433515</span></p>
+<p class="translate">Adress:<span class="phnumber"><a href="https://l.instagram.com/?u=https%3A%2F%2Fmaps.app.goo.gl%2FhZbxyjAbvZcrRJBL6&e=AT0tRHK_xJ3mFoNCmE8743hrHoa5LcHWK8mSste_brYyX05n3rfchRFjIzWkbYj0nsbO0NQuUMEpODC50xl0WOC4NFHmdi6i" ><span class="phnumber"> Jenin - دوار الجلبوني</span></a></p>
+<a href="https://www.facebook.com/Black-Caffee-113467317075741">
+<img src="facebookicon.png" alt="facebook icon"><span class="fatext">black caffee</span>
+</a><br>
+<a href="https://www.instagram.com/black_caffee1/">
+<img src="instagram.png" alt="instagram icon"><span class="instatext">black_caffee1</span>
+</a>
+</div>
+</footer>
+</body>
+</div>
+</html>

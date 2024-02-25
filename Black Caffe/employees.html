@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Black Caffe - Employees</title>
+<link rel="shortcut icon" href="BClogo.png" type="image/x-icon">
+<link rel="stylesheet" href="employees.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="script.js"></script>
+<script>
+	function limitInputLength(input, maxlength) {
+		if (input.value.length > maxlength) {
+			input.value = input.value.slice(0, maxlength);
+		}
+	}
+</script>
+</head>
+<div class="scrollbar">
+	<body>
+<header>
+	<div class="logo1">
+		<a href="Home.html"><img id="homelogo"src="BClogo.png" alt="BlackCaffelogo" style="border:6px double black;width: 130px;height: 130px;background-color: white;border-radius: 100%;"></a>
+	</div>
+<div class="h1b"><h1>Black Caffe</h1></div>
+<div class="smi">
+	<ul>
+	<a href="https://www.facebook.com/Black-Caffee-113467317075741">
+		<img src="facebookicon.png" alt="facebook icon"></img>
+	</a>
+	<a href="https://www.instagram.com/black_caffee1/">
+		<img src="instagram.png" alt="instagram icon"></img>
+	</a>
+	</ul>
+</div>
+<span>
+<nav>
+<ul class="dir">
+<li ><a href="Home.html">Home</a></li>
+<li ><a href="menu.html">Menu</a></li>	 
+<li ><a href="employees.html">Employees</a></li>
+<li ><a href="about us.html">About Us</a></li>
+</ul>
+</nav>
+</span>
+</header>
+	<div class="h11"><h1>Personal Information</h1></div>
+	<form onsubmit="submitForm(event)" id="myForm">	
+		<div class="input-f">
+		<input type="text" name="fname" id="fname" placeholder="Your Full Name" required>
+		<input type="email" name="email" id="email" placeholder="Your Email">
+		<input type="tel" oninput="limitInputLength(this, 10)" name="phone" id="phone" placeholder="Your Phone Number" required>
+		<input type="number" oninput="limitInputLength(this, 2)" name="age" id="age" placeholder="Your Age" maxlength="3" required>
+		<input type="text" name="address" id="address" placeholder="Your Address" required>
+		<label for="gender">-Gender:</label>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female"><br>
+		<select name="exp" id="exp">
+            <option value="">Your Experiences</option>
+			<option value="barista">Barista</option> 
+			<option value="chef">Chef</option>
+			<option value="hookah man">Hookah Man</option>
+			<option value="cleaner">Cleaner</option>
+			<option value="dishwasher">Dishwasher</option>
+			<option value="casher">Casher</option>
+			<option value="waiter">Waiter</option>
+		</select><br>
+		<div>   
+        <input type="submit" id="submit">
+		</div>
+	</div>
+	</form>
+
+  <footer>
+	<div class="fp">	
+	<p class="translate">Telephone: <span class="phnumber">&#128222;042433515</span></p>
+	<p class="translate">Adress:<span class="phnumber"><a href="https://l.instagram.com/?u=https%3A%2F%2Fmaps.app.goo.gl%2FhZbxyjAbvZcrRJBL6&e=AT0tRHK_xJ3mFoNCmE8743hrHoa5LcHWK8mSste_brYyX05n3rfchRFjIzWkbYj0nsbO0NQuUMEpODC50xl0WOC4NFHmdi6i" ><span class="phnumber"> Jenin - دوار الجلبوني</span></a></p>
+	<a href="https://www.facebook.com/Black-Caffee-113467317075741">
+	<img src="facebookicon.png" alt="facebook icon"><span class="fatext">black caffee</span>
+	</a><br>
+	<a href="https://www.instagram.com/black_caffee1/">
+	<img src="instagram.png" alt="instagram icon"><span class="instatext">black_caffee1</span>
+	</a>
+	</div>
+	</footer>
+</body>
+</div>
+</html>

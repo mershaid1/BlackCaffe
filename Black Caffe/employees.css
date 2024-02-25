@@ -1,0 +1,227 @@
+html, body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	}
+	.scrollbar {
+		overflow: hidden;
+	}
+	header {
+	background: linear-gradient(to bottom, black 80%,rgb(85, 85, 85) 15%);	
+	padding: 1px;
+	display: block;
+	width: 100%;
+	height: 120px;
+	position: relative;
+	z-index: 10;
+}
+header .h1b {
+color: white;
+top: 20px;
+left: 200px;
+justify-content: center;
+position: absolute;
+font-family: cursive;
+border-top: 2px solid;
+border-image: linear-gradient(to right, white 10%, transparent 90%);
+border-image-slice: 1;
+cursor: default ;
+}
+.dir {
+	position: absolute;
+    top: 85px;
+	left: 200px;
+    padding: 0;   
+	display: flex;
+	text-align: left;
+	list-style: none;
+}
+	nav  a {
+		color: white;
+		text-decoration: none;
+		margin-right: 40px;
+		font-size: large;
+		border-right: 3px solid black;
+		padding-right: 10px;
+}
+nav a:hover {
+	color: black;  
+    position: relative;  
+}
+.smi {
+	position: absolute;
+	top: 30px;
+	right: 20px;
+    padding: 0;   
+	display: inline-block;
+}
+.smi img {
+    width: 20px;
+	height: 20px;
+	margin-right: 20px;
+}
+	.h11 {
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		height: 100vh;
+		font-family: cursive;
+	}
+	.h11 h1 {
+		text-align: center;
+		color: white;
+	}
+	form {
+		width: 500px;
+		height: 400px;
+		top: 200px;
+		left: 31%;
+		position: absolute;
+		display:flex;
+		justify-content: center;
+		align-items: start;
+		z-index: 2;
+		border: 10px double yellow;
+	}
+	.input-f {
+		display: block;
+		margin-bottom: 10px;
+	}
+	#fname {
+		font-size: 14pt;
+		align-items: center;
+		width: 98%;
+		height: 30px;
+		margin-top: 10px;
+		border-radius: 20px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	#email {
+		font-size: 14pt;
+		align-items: center;
+		width: 98%;
+		margin-top: 10px;
+		height: 30px;
+		border-radius: 20px;
+		text-align: center;
+	}	
+	#phone {
+		font-size: 14pt;
+		align-items: center;
+		width: 98%;
+		margin-top: 10px;
+		height: 30px;
+		border-radius: 20px;
+		text-align: center;
+	}
+	#age {
+		font-size: 14pt;
+		align-items: center;
+		width: 98%;
+		margin-top: 10px;
+		height: 30px;
+		border-radius: 20px;
+		text-align: center;
+	}
+	#address {
+		font-size: 14pt;
+		align-items: center;
+		width: 98%;
+		height: 30px;
+		margin-top: 10px;
+		border-radius: 20px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	label {
+		color: white;
+		font-size: 16pt;
+		justify-content: space-between;
+		border-radius: 20px;
+		align-items: center;
+	}
+	#exp {
+		font-size: 14pt;
+		align-items: center;
+		width: 98%;
+		height: 30px;
+		margin-top: 10px;
+		border-radius: 20px;
+		text-align: center;
+		text-transform: capitalize;
+		cursor: pointer;
+	}
+	#submit {
+		background-color: transparent;
+		color: white;
+		border: 2px solid white;
+		text-transform: uppercase;
+		overflow: hidden;
+		cursor: pointer;
+		padding: 1em 1.5em;
+		border-radius: 100vmax;
+		font-size: 12pt;
+		text-align: center;
+		margin-top: 20px;
+		align-items: center;
+		width: 98%;
+	}
+	#submit::after {
+        content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		transition: all 0.5s ease-in-out;
+		background-color: red;
+		visibility: hidden;
+		border-radius: 100vmax;
+		height: 10px;
+		width: 10px;
+		z-index: -1;
+	}
+	#submit:hover {
+        box-shadow: 5px 5px 20px yellow;
+		border: none;
+		color: white;
+		background-color: black;
+	}
+	footer{
+		background: linear-gradient(to top,black 90%, rgb(51, 51, 51) 10%);
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		position: relative;
+		height: 160px;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+}
+.fp{
+	color: white;
+	font-size: 12pt;
+	text-align: center;
+	font-family: 'Lucida Sans';
+}
+.fp .phnumber {
+color: blue;
+margin-left: 3px;
+}
+.fp a {
+display: inline-block;
+}
+.fp img {
+width: 20px;
+height: 20px;
+}
+.fp .fatext {
+color: blue;
+margin-left: 5px;
+}
+.fp .instatext {
+color: blue;
+margin-left: 5px;
+}	
+				
+

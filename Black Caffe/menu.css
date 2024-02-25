@@ -1,0 +1,3742 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.scrollbar {
+    overflow: hidden;
+}
+header {
+background: linear-gradient(to bottom, black 80%,rgb(85, 85, 85) 15%);	
+padding: 1px;
+display: block;
+width: 100%;
+height: 120px;
+position: relative;
+z-index: 10;
+}
+header .h1b {
+color: white;
+top: 20px;
+left: 200px;
+justify-content: center;
+position: absolute;
+font-family: cursive;
+border-top: 2px solid;
+border-image: linear-gradient(to right, white 10%, transparent 90%);
+border-image-slice: 1;
+cursor: default;
+}
+.dir {
+position: absolute;
+top: 85px;
+left: 200px;
+padding: 0;   
+display: flex;
+text-align: left;
+list-style: none;
+}
+nav  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: large;
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+nav a:hover {
+    color: black;  
+    position: relative; 
+}
+.smi {
+position: absolute;
+top: 30px;
+right: 20px;
+padding: 0;   
+display: inline-block;
+}
+.smi img {
+width: 20px;
+height: 20px;
+margin-right: 20px;
+}
+section {
+position: relative;
+height: 100vh;
+background-color: black;
+overflow: hidden;
+z-index: -1;
+}
+section .backimg {
+height: 100vh;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0.2;
+filter: invert(100%);
+z-index: 1;
+}
+section h2 {
+display: flex;
+justify-content: center;
+position: absolute;
+color: white;
+left: 1%;
+top: 1%;
+font-family: cursive;
+font-size: 30pt;
+z-index: 10;
+border: 6px double yellow;
+width: 95%;
+}
+.mlist h3 {
+position: absolute;
+text-align: center;
+color: white;
+width: 120px;
+left: 5%;
+top: 20%;
+font-size: 18pt;
+z-index: 10;
+border: 4px double yellow;
+font-family: cursive;
+}
+.mlist h3::before {
+content: "";
+position: absolute;
+top: -30px;
+left: -10px;
+right: 90px;
+height: 20px;
+border-radius: 50%;
+border: 3px double yellow;
+}
+.mlist h3::after {
+content: "";
+position: absolute;
+bottom: -30px;
+right: -20px;
+left: 70px;
+height: 20px;
+border-radius: 50%;	
+border: 3px double yellow;
+}
+.mlist1 h3 {
+position: absolute;
+text-align: center;
+color: white;
+width: 180px;
+left: 55%;
+top: 20%;
+font-size: 18pt;
+z-index: 10;
+border: 4px double yellow;
+font-family: cursive;
+}
+.mlist1 h3::before {
+content: "";
+position: absolute;
+top: -30px;
+left: -10px;
+right: 150px;
+height: 20px;
+border-radius: 50%;
+border: 3px double yellow;
+}
+.mlist1 h3::after {
+content: "";
+position: absolute;
+bottom: -30px;
+right: -20px;
+left: 130px;
+height: 20px;
+border-radius: 50%;	
+border: 3px double yellow;
+}
+.mlist2 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 120px;
+    left: 5%;
+    top: 5%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist2 h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 90px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist2 h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 70px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+}
+.mlist3 h3 {
+        position: absolute;
+        text-align: center;
+        color: white;
+        width: 210px;
+        left: 5%;
+        top: 55%;
+        font-size: 18pt;
+        z-index: 10;
+        border: 4px double yellow;
+        font-family: cursive;
+}
+.mlist3 h3::before {
+        content: "";
+        position: absolute;
+        top: -30px;
+        left: -10px;
+        right: 180px;
+        height: 20px;
+        border-radius: 50%;
+        border: 3px double yellow;
+}
+.mlist3 h3::after {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        right: -20px;
+        left: 160px;
+        height: 20px;
+        border-radius: 50%;	
+        border: 3px double yellow;
+}
+.mlist4 h3 {
+            position: absolute;
+            text-align: center;
+            color: white;
+            width: 210px;
+            left: 55%;
+            top: 5%;
+            font-size: 18pt;
+            z-index: 10;
+            border: 4px double yellow;
+            font-family: cursive;
+}
+.mlist4 h3::before {
+            content: "";
+            position: absolute;
+            top: -30px;
+            left: -10px;
+            right: 180px;
+            height: 20px;
+            border-radius: 50%;
+            border: 3px double yellow;
+}
+.mlist4 h3::after {
+            content: "";
+            position: absolute;
+            bottom: -30px;
+            right: -20px;
+            left: 160px;
+            height: 20px;
+            border-radius: 50%;	
+            border: 3px double yellow;
+}
+.mlist5 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 120px;
+    left: 5%;
+    top: 5%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist5 h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 90px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist5 h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 70px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+}
+.mlist6 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 210px;
+    left: 55%;
+    top: 5%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist6 h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 180px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist6 h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 160px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+} 
+.mlist7 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 180px;
+    left: 42.5%;
+    top: 5%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist7 h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 150px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist7 h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 130px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+}
+.mlist10 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 180px;
+    left: 5%;
+    top: 5%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist10 h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 150px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist10 h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 130px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+}
+.mlist11 h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 180px;
+    left: 55%;
+    top: 5%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist11 h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 150px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist11 h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 130px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+}
+.mlistm h3 {
+position: absolute;
+text-align: center;
+color: white;
+width: 180px;
+left: 55%;
+top: 5%;
+font-size: 18pt;
+z-index: 10;
+border: 4px double yellow;
+font-family: cursive;
+}
+.mlistm h3::before {
+content: "";
+position: absolute;
+top: -30px;
+left: -10px;
+right: 150px;
+height: 20px;
+border-radius: 50%;
+border: 3px double yellow;
+}
+.mlistm h3::after {
+content: "";
+position: absolute;
+bottom: -30px;
+right: -20px;
+left: 130px;
+height: 20px;
+border-radius: 50%;	
+border: 3px double yellow;
+}
+.mlistn h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 180px;
+    left: 55%;
+    top: 15%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+    }
+    .mlistn h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 150px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+    }
+    .mlistn h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 130px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+    }
+.mlistin {
+left: 5%;
+top: 35%;
+position: absolute;
+padding: 0;   
+display: flex;
+text-align: left;
+font-family: cursive;
+}
+.mlistin ul {
+color: white;
+font-size: 16pt;
+padding: 10px;
+list-style: none;
+}
+.mlist1in {
+    left: 55%;
+    top: 35%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist1in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist2in {
+        left: 5%;
+        top: 20%;
+        position: absolute;
+        padding: 0;   
+        display: flex;
+        text-align: left;
+        font-family: cursive;
+}
+.mlist2in ul {
+        color: white;
+        font-size: 16pt;
+        padding: 10px;
+        list-style: none;
+}
+.mlist3in {
+            left: 5%;
+            top: 70%;
+            position: absolute;
+            padding: 0;   
+            display: flex;
+            text-align: left;
+            font-family: cursive;
+}
+.mlist3in ul {
+            color: white;
+            font-size: 16pt;
+            padding: 10px;
+            list-style: none;
+}
+.mlist4in {
+                left: 55%;
+                top: 20%;
+                position: absolute;
+                padding: 0;   
+                display: flex;
+                text-align: left;
+                font-family: cursive;
+}
+.mlist4in ul {
+                color: white;
+                font-size: 16pt;
+                padding: 10px;
+                list-style: none;
+}
+.mlist5in {
+    left: 5%;
+    top: 20%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist5in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist6in {
+    left: 55%;
+    top: 20%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist6in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+} 
+.mlist8in {
+    left: 5%;
+    top: -5%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist8in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist9in {
+    left: 55%;
+    top: -5%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist9in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist10in {
+    left: 5%;
+    top: 15%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist10in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist-ice-cream h3 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 180px;
+    left: 42.5%;
+    top: 1%;
+    font-size: 18pt;
+    z-index: 10;
+    border: 4px double yellow;
+    font-family: cursive;
+}
+.mlist-ice-cream h3::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    right: 150px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px double yellow;
+}
+.mlist-ice-cream h3::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+    left: 130px;
+    height: 20px;
+    border-radius: 50%;	
+    border: 3px double yellow;
+}
+.mlistIin {
+    left: 20%;
+    top: 20%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlistIin ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist11in {
+    left: 55%;
+    top: 15%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist11in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.mlist12in {
+    left: 5%;
+    top: -3.5%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlist12in ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}                            
+.mlistin .cen {
+left: 40%;
+position: absolute;
+font-size: 14pt;
+}
+.mlistmin {
+        left: 55%;
+        top: -4%;
+        position: absolute;
+        padding: 0;   
+        display: flex;
+        text-align: left;
+        font-family: cursive;
+}
+.mlistmin ul {
+        color: white;
+        font-size: 16pt;
+        padding: 10px;
+        list-style: none;
+}
+.mlistnin {
+    left: 55%;
+    top: 25%;
+    position: absolute;
+    padding: 0;   
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+.mlistnin ul {
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+    list-style: none;
+}
+.item-dt {
+display: flex;
+position: absolute;
+top: 17%;
+left: 250px;
+text-align: center;
+}
+.line {
+width: 200px;
+height: 4px;
+background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+background-size: 7px;
+display: block;
+border-radius: 50%;
+}
+.cost {
+left: 220px;
+top: -15px;
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: yellow;
+border-radius: 50%;
+color: black;
+font-family: cursive;
+display: block;
+justify-content: center;
+}
+.item1-dt {
+display: flex;
+position: absolute;
+top: 36%;
+left: 250px;
+text-align: center;
+}
+.line1 {
+width: 200px;
+height: 4px;
+background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+background-size: 7px;
+display: block;
+border-radius: 50%;
+}
+.cost1 {
+left: 220px;
+top: -15px;
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: yellow;
+border-radius: 50%;
+color: black;
+font-family: cursive;
+display: block;
+justify-content: center;
+}
+.item2-dt {
+display: flex;
+position: absolute;
+top: 55%;
+left: 250px;
+text-align: center;
+}
+.line2 {
+width: 200px;
+height: 4px;
+background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+background-size: 7px;
+display: block;
+border-radius: 50%;
+}
+.cost2 {
+left: 220px;
+top: -15px;
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: yellow;
+border-radius: 50%;
+color: black;
+font-family: cursive;
+display: block;
+justify-content: center;
+}
+.item3-dt {
+display: flex;
+position: absolute;
+top: 74%;
+left: 250px;
+text-align: center;
+}
+.line3 {
+width: 200px;
+height: 4px;
+background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+background-size: 7px;
+display: block;
+border-radius: 50%;
+}
+.cost3 {
+left: 220px;
+top: -15px;
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: yellow;
+border-radius: 50%;
+color: black;
+font-family: cursive;
+display: block;
+justify-content: center;
+}
+.item4-dt {
+display: flex;
+position: absolute;
+top: 50%;
+left: 120px;
+text-align: center;
+}
+.line4 {
+width: 100px;
+height: 4px;
+background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+background-size: 7px;
+display: block;
+border-radius: 50%;
+}
+.cost4 {
+left: 120px;
+top: -15px;
+position: absolute;
+width: 30px;
+height: 30px;
+background-color: yellow;
+border-radius: 50%;
+color: black;
+font-family: cursive;
+display: block;
+justify-content: center;
+}
+.itema-dt {
+    display: flex;
+    position: absolute;
+    top: 13%;
+    left: 260px;
+    text-align: center;
+}
+.linea {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costa {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itema1-dt {
+        display: flex;
+        position: absolute;
+        top: 29%;
+        left: 260px;
+        text-align: center;
+}
+.linea1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costa1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itema2-dt {
+    display: flex;
+    position: absolute;
+    top: 43%;
+    left: 260px;
+    text-align: center;
+}
+.linea2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costa2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itema3-dt {
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 260px;
+    text-align: center;
+}
+.linea3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costa3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itema4-dt {
+    display: flex;
+    position: absolute;
+    top: 73%;
+    left: 260px;
+    text-align: center;
+}
+.linea4 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costa4 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itema5-dt {
+    display: flex;
+    position: absolute;
+    top: 89%;
+    left: 260px;
+    text-align: center;
+}
+.linea5 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costa5 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemb-dt {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 250px;
+    text-align: center;
+}
+.lineb {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costb {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemb1-dt {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 250px;
+    text-align: center;
+}
+.lineb1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costb1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemc-dt {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 250px;
+    text-align: center;
+}
+.linec {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costc {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemc1-dt {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 250px;
+    text-align: center;
+}
+.linec1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costc1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemd-dt {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 260px;
+    text-align: center;
+}
+.lined {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costd {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemd1-dt {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 260px;
+    text-align: center;
+}
+.lined1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costd1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemd2-dt {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 260px;
+    text-align: center;
+}
+.lined2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costd2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemd3-dt {
+    display: flex;
+    position: absolute;
+    top: 68%;
+    left: 260px;
+    text-align: center;
+}
+.lined3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costd3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemd4-dt {
+    display: flex;
+    position: absolute;
+    top: 86%;
+    left: 260px;
+    text-align: center;
+}
+.lined4 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costd4 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteme-dt {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 250px;
+    text-align: center;
+}
+.linee {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.coste {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteme1-dt {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 250px;
+    text-align: center;
+}
+.linee1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.coste1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteme2-dt {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    text-align: center;
+}
+.linee2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.coste2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteme3-dt {
+    display: flex;
+    position: absolute;
+    top: 68%;
+    left: 250px;
+    text-align: center;
+}
+.linee3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.coste3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteme4-dt {
+    display: flex;
+    position: absolute;
+    top: 87%;
+    left: 250px;
+    text-align: center;
+}
+.linee4 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.coste4 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemf-dt {
+    display: flex;
+    position: absolute;
+    top: 32%;
+    left: 250px;
+    text-align: center;
+}
+.linef {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costf {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemf1-dt {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 250px;
+    text-align: center;
+}
+.linef1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costf1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemg-dt {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 250px;
+    text-align: center;
+}
+.lineg {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costg {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemg1-dt {
+    display: flex;
+    position: absolute;
+    top: 21%;
+    left: 250px;
+    text-align: center;
+}
+.lineg1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costg1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemg2-dt {
+    display: flex;
+    position: absolute;
+    top: 33%;
+    left: 250px;
+    text-align: center;
+}
+.lineg2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costg2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemg3-dt {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    left: 250px;
+    text-align: center;
+}
+.lineg3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costg3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemg4-dt {
+    display: flex;
+    position: absolute;
+    top: 56%;
+    left: 250px;
+    text-align: center;
+}
+.lineg4 {
+    width: 100px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costg4 {
+    left: 120px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemg5-dt {
+        display: flex;
+        position: absolute;
+        top: 68%;
+        left: 250px;
+        text-align: center;
+}
+.lineg5 {
+        width: 200px;
+        height: 4px;
+        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+        background-size: 7px;
+        display: block;
+        border-radius: 50%;
+}
+.costg5 {
+        left: 220px;
+        top: -15px;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        border-radius: 50%;
+        color: black;
+        font-family: cursive;
+        display: block;
+        justify-content: center;
+}
+.itemg6-dt {
+        display: flex;
+        position: absolute;
+        top: 79%;
+        left: 250px;
+        text-align: center;
+}
+.lineg6 {
+        width: 200px;
+        height: 4px;
+        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+        background-size: 7px;
+        display: block;
+        border-radius: 50%;
+}
+.costg6 {
+        left: 220px;
+        top: -15px;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        border-radius: 50%;
+        color: black;
+        font-family: cursive;
+        display: block;
+        justify-content: center;
+}
+.itemg7-dt {
+        display: flex;
+        position: absolute;
+        top: 91%;
+        left: 250px;
+        text-align: center;
+}
+.lineg7 {
+        width: 100px;
+        height: 4px;
+        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+        background-size: 7px;
+        display: block;
+        border-radius: 50%;
+}
+.costg7 {
+        left: 120px;
+        top: -15px;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        border-radius: 50%;
+        color: black;
+        font-family: cursive;
+        display: block;
+        justify-content: center;
+}
+.itemg8-dt {
+            display: flex;
+            position: absolute;
+            top: 11%;
+            left: 250px;
+            text-align: center;
+}
+.lineg8 {
+            width: 200px;
+            height: 4px;
+            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+            background-size: 7px;
+            display: block;
+            border-radius: 50%;
+}
+.costg8 {
+            left: 220px;
+            top: -15px;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            border-radius: 50%;
+            color: black;
+            font-family: cursive;
+            display: block;
+            justify-content: center;
+}
+.itemg9-dt {
+            display: flex;
+            position: absolute;
+            top: 24%;
+            left: 250px;
+            text-align: center;
+}
+.lineg9 {
+            width: 200px;
+            height: 4px;
+            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+            background-size: 7px;
+            display: block;
+            border-radius: 50%;
+}
+.costg9 {
+            left: 220px;
+            top: -15px;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            border-radius: 50%;
+            color: black;
+            font-family: cursive;
+            display: block;
+            justify-content: center;
+}
+.itemg10-dt {
+            display: flex;
+            position: absolute;
+            top: 37%;
+            left: 250px;
+            text-align: center;
+}
+.lineg10 {
+            width: 200px;
+            height: 4px;
+            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+            background-size: 7px;
+            display: block;
+            border-radius: 50%;
+}
+.costg10 {
+            left: 220px;
+            top: -15px;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            border-radius: 50%;
+            color: black;
+            font-family: cursive;
+            display: block;
+            justify-content: center;
+}
+.itemg11-dt {
+            display: flex;
+            position: absolute;
+            top: 51%;
+            left: 250px;
+            text-align: center;
+}
+.lineg11 {
+            width: 200px;
+            height: 4px;
+            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+            background-size: 7px;
+            display: block;
+            border-radius: 50%;
+}
+.costg11 {
+            left: 220px;
+            top: -15px;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            border-radius: 50%;
+            color: black;
+            font-family: cursive;
+            display: block;
+            justify-content: center;
+}
+.itemg12-dt {
+                display: flex;
+                position: absolute;
+                top: 65%;
+                left: 250px;
+                text-align: center;
+}
+.lineg12 {
+                width: 200px;
+                height: 4px;
+                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                background-size: 7px;
+                display: block;
+                border-radius: 50%;
+}
+.costg12 {
+                left: 220px;
+                top: -15px;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                background-color: yellow;
+                border-radius: 50%;
+                color: black;
+                font-family: cursive;
+                display: block;
+                justify-content: center;
+}
+.itemg13-dt {
+                display: flex;
+                position: absolute;
+                top: 78%;
+                left: 250px;
+                text-align: center;
+}
+.lineg13 {
+                width: 200px;
+                height: 4px;
+                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                background-size: 7px;
+                display: block;
+                border-radius: 50%;
+}
+.costg13 {
+                left: 220px;
+                top: -15px;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                background-color: yellow;
+                border-radius: 50%;
+                color: black;
+                font-family: cursive;
+                display: block;
+                justify-content: center;
+}
+.itemg14-dt {
+                display: flex;
+                position: absolute;
+                top: 91%;
+                left: 250px;
+                text-align: center;
+}
+.lineg14 {
+                width: 200px;
+                height: 4px;
+                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                background-size: 7px;
+                display: block;
+                border-radius: 50%;
+}
+.costg14 {
+                left: 220px;
+                top: -15px;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                background-color: yellow;
+                border-radius: 50%;
+                color: black;
+                font-family: cursive;
+                display: block;
+                justify-content: center;
+}
+.itemh8-dt {
+                    display: flex;
+                    position: absolute;
+                    top: 10%;
+                    left: 250px;
+                    text-align: center;
+}
+.lineh8 {
+                    width: 200px;
+                    height: 4px;
+                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                    background-size: 7px;
+                    display: block;
+                    border-radius: 50%;
+}
+.costh8 {
+    left: 220px;
+                    top: -15px;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    background-color: yellow;
+                    border-radius: 50%;
+                    color: black;
+                    font-family: cursive;
+                    display: block;
+                    justify-content: center;
+}
+                    .itemh9-dt {
+                    display: flex;
+                    position: absolute;
+                    top: 22%;
+                    left: 250px;
+                    text-align: center;
+                    }
+                    .lineh9 {
+                    width: 200px;
+                    height: 4px;
+                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                    background-size: 7px;
+                    display: block;
+                    border-radius: 50%;
+                    }
+                    .costh9 {
+                    left: 220px;
+                    top: -15px;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    background-color: yellow;
+                    border-radius: 50%;
+                    color: black;
+                    font-family: cursive;
+                    display: block;
+                    justify-content: center;
+                    }
+                    .itemh10-dt {
+                    display: flex;
+                    position: absolute;
+                    top: 33%;
+                    left: 250px;
+                    text-align: center;
+                    }
+                    .lineh10 {
+                    width: 200px;
+                    height: 4px;
+                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                    background-size: 7px;
+                    display: block;
+                    border-radius: 50%;
+                    }
+                    .costh10 {
+                    left: 220px;
+                    top: -15px;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    background-color: yellow;
+                    border-radius: 50%;
+                    color: black;
+                    font-family: cursive;
+                    display: block;
+                    justify-content: center;
+                    }
+                    .itemh11-dt {
+                    display: flex;
+                    position: absolute;
+                    top: 45%;
+                    left: 250px;
+                    text-align: center;
+                    }
+                    .lineh11 {
+                    width: 200px;
+                    height: 4px;
+                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                    background-size: 7px;
+                    display: block;
+                    border-radius: 50%;
+                    }
+                    .costh11 {
+                    left: 220px;
+                    top: -15px;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    background-color: yellow;
+                    border-radius: 50%;
+                    color: black;
+                    font-family: cursive;
+                    display: block;
+                    justify-content: center;
+                    }
+                    .itemh12-dt {
+                        display: flex;
+                        position: absolute;
+                        top: 56%;
+                        left: 250px;
+                        text-align: center;
+                        }
+                        .lineh12 {
+                        width: 200px;
+                        height: 4px;
+                        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                        background-size: 7px;
+                        display: block;
+                        border-radius: 50%;
+                        }
+                        .costh12 {
+                        left: 220px;
+                        top: -15px;
+                        position: absolute;
+                        width: 30px;
+                        height: 30px;
+                        background-color: yellow;
+                        border-radius: 50%;
+                        color: black;
+                        font-family: cursive;
+                        display: block;
+                        justify-content: center;
+                        }
+                    .itemh13-dt {
+                        display: flex;
+                        position: absolute;
+                        top: 68%;
+                        left: 250px;
+                        text-align: center;
+                        }
+                        .lineh13 {
+                        width: 200px;
+                        height: 4px;
+                        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                        background-size: 7px;
+                        display: block;
+                        border-radius: 50%;
+                        }
+                        .costh13 {
+                        left: 220px;
+                        top: -15px;
+                        position: absolute;
+                        width: 30px;
+                        height: 30px;
+                        background-color: yellow;
+                        border-radius: 50%;
+                        color: black;
+                        font-family: cursive;
+                        display: block;
+                        justify-content: center;
+                        }
+                        .itemh14-dt {
+                        display: flex;
+                        position: absolute;
+                        top: 80%;
+                        left: 250px;
+                        text-align: center;
+                        }
+                        .lineh14 {
+                        width: 200px;
+                        height: 4px;
+                        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                        background-size: 7px;
+                        display: block;
+                        border-radius: 50%;
+                        }
+                        .costh14 {
+                        left: 220px;
+                        top: -15px;
+                        position: absolute;
+                        width: 30px;
+                        height: 30px;
+                        background-color: yellow;
+                        border-radius: 50%;
+                        color: black;
+                        font-family: cursive;
+                        display: block;
+                        justify-content: center;
+                        }
+                        .itemh15-dt {
+                            display: flex;
+                            position: absolute;
+                            top: 91%;
+                            left: 250px;
+                            text-align: center;
+                            }
+                            .lineh15 {
+                            width: 200px;
+                            height: 4px;
+                            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                            background-size: 7px;
+                            display: block;
+                            border-radius: 50%;
+                            }
+                            .costh15 {
+                            left: 220px;
+                            top: -15px;
+                            position: absolute;
+                            width: 30px;
+                            height: 30px;
+                            background-color: yellow;
+                            border-radius: 50%;
+                            color: black;
+                            font-family: cursive;
+                            display: block;
+                            justify-content: center;
+                            } 
+                            .itemg15-dt {
+                                display: flex;
+                                position: absolute;
+                                top: 10%;
+                                left: 250px;
+                                text-align: center;
+                                }
+                                .lineg15 {
+                                width: 200px;
+                                height: 4px;
+                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                background-size: 7px;
+                                display: block;
+                                border-radius: 50%;
+                                }
+                                .costg15 {
+                                left: 220px;
+                                top: -15px;
+                                position: absolute;
+                                width: 30px;
+                                height: 30px;
+                                background-color: yellow;
+                                border-radius: 50%;
+                                color: black;
+                                font-family: cursive;
+                                display: block;
+                                justify-content: center;
+                                }
+                                .itemg16-dt {
+                                display: flex;
+                                position: absolute;
+                                top: 22%;
+                                left: 250px;
+                                text-align: center;
+                                }
+                                .lineg16 {
+                                width: 200px;
+                                height: 4px;
+                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                background-size: 7px;
+                                display: block;
+                                border-radius: 50%;
+                                }
+                                .costg16 {
+                                left: 220px;
+                                top: -15px;
+                                position: absolute;
+                                width: 30px;
+                                height: 30px;
+                                background-color: yellow;
+                                border-radius: 50%;
+                                color: black;
+                                font-family: cursive;
+                                display: block;
+                                justify-content: center;
+                                }
+                                .itemg17-dt {
+                                display: flex;
+                                position: absolute;
+                                top: 33%;
+                                left: 250px;
+                                text-align: center;
+                                }
+                                .lineg17 {
+                                width: 200px;
+                                height: 4px;
+                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                background-size: 7px;
+                                display: block;
+                                border-radius: 50%;
+                                }
+                                .costg17 {
+                                left: 220px;
+                                top: -15px;
+                                position: absolute;
+                                width: 30px;
+                                height: 30px;
+                                background-color: yellow;
+                                border-radius: 50%;
+                                color: black;
+                                font-family: cursive;
+                                display: block;
+                                justify-content: center;
+                                }
+                                .itemg18-dt {
+                                display: flex;
+                                position: absolute;
+                                top: 45%;
+                                left: 250px;
+                                text-align: center;
+                                }
+                                .lineg18 {
+                                width: 200px;
+                                height: 4px;
+                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                background-size: 7px;
+                                display: block;
+                                border-radius: 50%;
+                                }
+                                .costg18 {
+                                left: 220px;
+                                top: -15px;
+                                position: absolute;
+                                width: 30px;
+                                height: 30px;
+                                background-color: yellow;
+                                border-radius: 50%;
+                                color: black;
+                                font-family: cursive;
+                                display: block;
+                                justify-content: center;
+                                }
+                                .itemg19-dt {
+                                    display: flex;
+                                    position: absolute;
+                                    top: 56%;
+                                    left: 250px;
+                                    text-align: center;
+                                    }
+                                .lineg19 {
+                                    width: 200px;
+                                    height: 4px;
+                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                    background-size: 7px;
+                                    display: block;
+                                    border-radius: 50%;
+                                    }
+                                .costg19 {
+                                    left: 220px;
+                                    top: -15px;
+                                    position: absolute;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: yellow;
+                                    border-radius: 50%;
+                                    color: black;
+                                    font-family: cursive;
+                                    display: block;
+                                    justify-content: center;
+                                    }
+                                .itemg20-dt {
+                                    display: flex;
+                                    position: absolute;
+                                    top: 68%;
+                                    left: 250px;
+                                    text-align: center;
+                                    }
+                                .lineg20 {
+                                    width: 200px;
+                                    height: 4px;
+                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                    background-size: 7px;
+                                    display: block;
+                                    border-radius: 50%;
+                                    }
+                                .costg20 {
+                                    left: 220px;
+                                    top: -15px;
+                                    position: absolute;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: yellow;
+                                    border-radius: 50%;
+                                    color: black;
+                                    font-family: cursive;
+                                    display: block;
+                                    justify-content: center;
+                                    }
+                                .itemg21-dt {
+                                    display: flex;
+                                    position: absolute;
+                                    top: 80%;
+                                    left: 250px;
+                                    text-align: center;
+                                    }
+                                .lineg21 {
+                                    width: 200px;
+                                    height: 4px;
+                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                    background-size: 7px;
+                                    display: block;
+                                    border-radius: 50%;
+                                    }
+                                .costg21 {
+                                    left: 220px;
+                                    top: -15px;
+                                    position: absolute;
+                                    width: 30px;
+                                    height: 30px;
+                                    background-color: yellow;
+                                    border-radius: 50%;
+                                    color: black;
+                                    font-family: cursive;
+                                    display: block;
+                                    justify-content: center;
+                                    }
+                                    .itemg22-dt {
+                                        display: flex;
+                                        position: absolute;
+                                        top: 92%;
+                                        left: 250px;
+                                        text-align: center;
+                                        }
+                                    .lineg22 {
+                                        width: 200px;
+                                        height: 4px;
+                                        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                        background-size: 7px;
+                                        display: block;
+                                        border-radius: 50%;
+                                        }
+                                    .costg22 {
+                                        left: 220px;
+                                        top: -15px;
+                                        position: absolute;
+                                        width: 30px;
+                                        height: 30px;
+                                        background-color: yellow;
+                                        border-radius: 50%;
+                                        color: black;
+                                        font-family: cursive;
+                                        display: block;
+                                        justify-content: center;
+                                        }
+                                        .itemg23-dt {
+                                            display: flex;
+                                            position: absolute;
+                                            top: 9%;
+                                            left: 250px;
+                                            text-align: center;
+                                            }
+                                        .lineg23 {
+                                            width: 200px;
+                                            height: 4px;
+                                            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                            background-size: 7px;
+                                            display: block;
+                                            border-radius: 50%;
+                                            }
+                                        .costg23 {
+                                            left: 220px;
+                                            top: -15px;
+                                            position: absolute;
+                                            width: 30px;
+                                            height: 30px;
+                                            background-color: yellow;
+                                            border-radius: 50%;
+                                            color: black;
+                                            font-family: cursive;
+                                            display: block;
+                                            justify-content: center;
+                                            }
+                                            .itemg24-dt {
+                                                display: flex;
+                                                position: absolute;
+                                                top: 19%;
+                                                left: 250px;
+                                                text-align: center;
+                                                }
+                                                .lineg24 {
+                                                width: 200px;
+                                                height: 4px;
+                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                background-size: 7px;
+                                                display: block;
+                                                border-radius: 50%;
+                                                }
+                                                .costg24 {
+                                                left: 220px;
+                                                top: -15px;
+                                                position: absolute;
+                                                width: 30px;
+                                                height: 30px;
+                                                background-color: yellow;
+                                                border-radius: 50%;
+                                                color: black;
+                                                font-family: cursive;
+                                                display: block;
+                                                justify-content: center;
+                                                }
+                                                .itemg25-dt {
+                                                display: flex;
+                                                position: absolute;
+                                                top: 29%;
+                                                left: 250px;
+                                                text-align: center;
+                                                }
+                                                .lineg25 {
+                                                width: 200px;
+                                                height: 4px;
+                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                background-size: 7px;
+                                                display: block;
+                                                border-radius: 50%;
+                                                }
+                                                .costg25 {
+                                                left: 220px;
+                                                top: -15px;
+                                                position: absolute;
+                                                width: 30px;
+                                                height: 30px;
+                                                background-color: yellow;
+                                                border-radius: 50%;
+                                                color: black;
+                                                font-family: cursive;
+                                                display: block;
+                                                justify-content: center;
+                                                }
+                                                .itemg26-dt {
+                                                display: flex;
+                                                position: absolute;
+                                                top: 40%;
+                                                left: 250px;
+                                                text-align: center;
+                                                }
+                                                .lineg26 {
+                                                width: 200px;
+                                                height: 4px;
+                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                background-size: 7px;
+                                                display: block;
+                                                border-radius: 50%;
+                                                }
+                                                .costg26 {
+                                                left: 220px;
+                                                top: -15px;
+                                                position: absolute;
+                                                width: 30px;
+                                                height: 30px;
+                                                background-color: yellow;
+                                                border-radius: 50%;
+                                                color: black;
+                                                font-family: cursive;
+                                                display: block;
+                                                justify-content: center;
+                                                }
+                                                .itemg27-dt {
+                                                display: flex;
+                                                position: absolute;
+                                                top: 51%;
+                                                left: 250px;
+                                                text-align: center;
+                                                }
+                                                .lineg27 {
+                                                width: 200px;
+                                                height: 4px;
+                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                background-size: 7px;
+                                                display: block;
+                                                border-radius: 50%;
+                                                }
+                                                .costg27 {
+                                                left: 220px;
+                                                top: -15px;
+                                                position: absolute;
+                                                width: 30px;
+                                                height: 30px;
+                                                background-color: yellow;
+                                                border-radius: 50%;
+                                                color: black;
+                                                font-family: cursive;
+                                                display: block;
+                                                justify-content: center;
+                                                }
+                                                .itemg28-dt {
+                                                    display: flex;
+                                                    position: absolute;
+                                                    top: 61%;
+                                                    left: 250px;
+                                                    text-align: center;
+                                                    }
+                                                .lineg28 {
+                                                    width: 200px;
+                                                    height: 4px;
+                                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                    background-size: 7px;
+                                                    display: block;
+                                                    border-radius: 50%;
+                                                    }
+                                                .costg28 {
+                                                    left: 220px;
+                                                    top: -15px;
+                                                    position: absolute;
+                                                    width: 30px;
+                                                    height: 30px;
+                                                    background-color: yellow;
+                                                    border-radius: 50%;
+                                                    color: black;
+                                                    font-family: cursive;
+                                                    display: block;
+                                                    justify-content: center;
+                                                    }
+                                                .itemg29-dt {
+                                                    display: flex;
+                                                    position: absolute;
+                                                    top: 71%;
+                                                    left: 250px;
+                                                    text-align: center;
+                                                    }
+                                                .lineg29 {
+                                                    width: 200px;
+                                                    height: 4px;
+                                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                    background-size: 7px;
+                                                    display: block;
+                                                    border-radius: 50%;
+                                                    }
+                                                .costg29 {
+                                                    left: 220px;
+                                                    top: -15px;
+                                                    position: absolute;
+                                                    width: 30px;
+                                                    height: 30px;
+                                                    background-color: yellow;
+                                                    border-radius: 50%;
+                                                    color: black;
+                                                    font-family: cursive;
+                                                    display: block;
+                                                    justify-content: center;
+                                                    }
+                                                .itemg30-dt {
+                                                    display: flex;
+                                                    position: absolute;
+                                                    top: 82%;
+                                                    left: 250px;
+                                                    text-align: center;
+                                                    }
+                                                .lineg30 {
+                                                    width: 200px;
+                                                    height: 4px;
+                                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                    background-size: 7px;
+                                                    display: block;
+                                                    border-radius: 50%;
+                                                    }
+                                                .costg30 {
+                                                    left: 220px;
+                                                    top: -15px;
+                                                    position: absolute;
+                                                    width: 30px;
+                                                    height: 30px;
+                                                    background-color: yellow;
+                                                    border-radius: 50%;
+                                                    color: black;
+                                                    font-family: cursive;
+                                                    display: block;
+                                                    justify-content: center;
+                                                    }
+                                                    .itemg31-dt {
+                                                        display: flex;
+                                                        position: absolute;
+                                                        top: 92%;
+                                                        left: 250px;
+                                                        text-align: center;
+                                                        }
+                                                    .lineg31 {
+                                                        width: 200px;
+                                                        height: 4px;
+                                                        background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                        background-size: 7px;
+                                                        display: block;
+                                                        border-radius: 50%;
+                                                        }
+                                                    .costg31 {
+                                                        left: 220px;
+                                                        top: -15px;
+                                                        position: absolute;
+                                                        width: 30px;
+                                                        height: 30px;
+                                                        background-color: yellow;
+                                                        border-radius: 50%;
+                                                        color: black;
+                                                        font-family: cursive;
+                                                        display: block;
+                                                        justify-content: center;
+                                                        } 
+                                                        .itemI-dt {
+                                                            display: flex;
+                                                            position: absolute;
+                                                            top: 22%;
+                                                            left: 250px;
+                                                            text-align: center;
+                                                            }
+                                                            .lineI {
+                                                            width: 400px;
+                                                            height: 4px;
+                                                            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                            background-size: 7px;
+                                                            display: block;
+                                                            border-radius: 50%;
+                                                            }
+                                                            .costI {
+                                                            left: 420px;
+                                                            top: -15px;
+                                                            position: absolute;
+                                                            width: 30px;
+                                                            height: 30px;
+                                                            background-color: yellow;
+                                                            border-radius: 50%;
+                                                            color: black;
+                                                            font-family: cursive;
+                                                            display: block;
+                                                            justify-content: center;
+                                                            }
+                                                            .itemI1-dt {
+                                                            display: flex;
+                                                            position: absolute;
+                                                            top: 50%;
+                                                            left: 250px;
+                                                            text-align: center;
+                                                            }
+                                                            .lineI1 {
+                                                            width: 400px;
+                                                            height: 4px;
+                                                            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                            background-size: 7px;
+                                                            display: block;
+                                                            border-radius: 50%;
+                                                            }
+                                                            .costI1 {
+                                                            left: 420px;
+                                                            top: -15px;
+                                                            position: absolute;
+                                                            width: 30px;
+                                                            height: 30px;
+                                                            background-color: yellow;
+                                                            border-radius: 50%;
+                                                            color: black;
+                                                            font-family: cursive;
+                                                            display: block;
+                                                            justify-content: center;
+                                                            }
+                                                            .itemI2-dt {
+                                                            display: flex;
+                                                            position: absolute;
+                                                            top: 80%;
+                                                            left: 250px;
+                                                            text-align: center;
+                                                            }
+                                                            .lineI2 {
+                                                            width: 400px;
+                                                            height: 4px;
+                                                            background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                            background-size: 7px;
+                                                            display: block;
+                                                            border-radius: 50%;
+                                                            }
+                                                            .costI2 {
+                                                            left: 420px;
+                                                            top: -15px;
+                                                            position: absolute;
+                                                            width: 30px;
+                                                            height: 30px;
+                                                            background-color: yellow;
+                                                            border-radius: 50%;
+                                                            color: black;
+                                                            font-family: cursive;
+                                                            display: block;
+                                                            justify-content: center;
+                                                            }
+                                                            .itemj-dt {
+                                                                display: flex;
+                                                                position: absolute;
+                                                                top: 9%;
+                                                                left: 250px;
+                                                                text-align: center;
+                                                            }
+                                                            .linej {
+                                                                width: 200px;
+                                                                height: 4px;
+                                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                background-size: 7px;
+                                                                display: block;
+                                                                border-radius: 50%;
+                                                            }
+                                                            .costj {
+                                                                left: 220px;
+                                                                top: -15px;
+                                                                position: absolute;
+                                                                width: 30px;
+                                                                height: 30px;
+                                                                background-color: yellow;
+                                                                border-radius: 50%;
+                                                                color: black;
+                                                                font-family: cursive;
+                                                                display: block;
+                                                                justify-content: center;
+                                                            }
+                                                            .itemj1-dt {
+                                                                display: flex;
+                                                                position: absolute;
+                                                                top: 19%;
+                                                                left: 250px;
+                                                                text-align: center;
+                                                            }
+                                                            .linej1 {
+                                                                width: 200px;
+                                                                height: 4px;
+                                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                background-size: 7px;
+                                                                display: block;
+                                                                border-radius: 50%;
+                                                            }
+                                                            .costj1 {
+                                                                left: 220px;
+                                                                top: -15px;
+                                                                position: absolute;
+                                                                width: 30px;
+                                                                height: 30px;
+                                                                background-color: yellow;
+                                                                border-radius: 50%;
+                                                                color: black;
+                                                                font-family: cursive;
+                                                                display: block;
+                                                                justify-content: center;
+                                                            }
+                                                            .itemj2-dt {
+                                                                display: flex;
+                                                                position: absolute;
+                                                                top: 30%;
+                                                                left: 250px;
+                                                                text-align: center;
+                                                            }
+                                                            .linej2 {
+                                                                width: 200px;
+                                                                height: 4px;
+                                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                background-size: 7px;
+                                                                display: block;
+                                                                border-radius: 50%;
+                                                            }
+                                                            .costj2 {
+                                                                left: 220px;
+                                                                top: -15px;
+                                                                position: absolute;
+                                                                width: 30px;
+                                                                height: 30px;
+                                                                background-color: yellow;
+                                                                border-radius: 50%;
+                                                                color: black;
+                                                                font-family: cursive;
+                                                                display: block;
+                                                                justify-content: center;
+                                                            }
+                                                            .itemj3-dt {
+                                                                display: flex;
+                                                                position: absolute;
+                                                                top: 40%;
+                                                                left: 250px;
+                                                                text-align: center;
+                                                            }
+                                                            .linej3 {
+                                                                width: 200px;
+                                                                height: 4px;
+                                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                background-size: 7px;
+                                                                display: block;
+                                                                border-radius: 50%;
+                                                            }
+                                                            .costj3 {
+                                                                left: 220px;
+                                                                top: -15px;
+                                                                position: absolute;
+                                                                width: 30px;
+                                                                height: 30px;
+                                                                background-color: yellow;
+                                                                border-radius: 50%;
+                                                                color: black;
+                                                                font-family: cursive;
+                                                                display: block;
+                                                                justify-content: center;
+                                                            }
+                                                            .itemj4-dt {
+                                                                display: flex;
+                                                                position: absolute;
+                                                                top: 50%;
+                                                                left: 250px;
+                                                                text-align: center;
+                                                            }
+                                                            .linej4 {
+                                                                width: 200px;
+                                                                height: 4px;
+                                                                background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                background-size: 7px;
+                                                                display: block;
+                                                                border-radius: 50%;
+                                                            }
+                                                            .costj4 {
+                                                                left: 220px;
+                                                                top: -15px;
+                                                                position: absolute;
+                                                                width: 30px;
+                                                                height: 30px;
+                                                                background-color: yellow;
+                                                                border-radius: 50%;
+                                                                color: black;
+                                                                font-family: cursive;
+                                                                display: block;
+                                                                justify-content: center;
+                                                            }
+                                                            .itemj5-dt {
+                                                                    display: flex;
+                                                                    position: absolute;
+                                                                    top: 61%;
+                                                                    left: 250px;
+                                                                    text-align: center;
+                                                            }
+                                                            .linej5 {
+                                                                    width: 200px;
+                                                                    height: 4px;
+                                                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                    background-size: 7px;
+                                                                    display: block;
+                                                                    border-radius: 50%;
+                                                            }
+                                                            .costj5 {
+                                                                    left: 220px;
+                                                                    top: -15px;
+                                                                    position: absolute;
+                                                                    width: 30px;
+                                                                    height: 30px;
+                                                                    background-color: yellow;
+                                                                    border-radius: 50%;
+                                                                    color: black;
+                                                                    font-family: cursive;
+                                                                    display: block;
+                                                                    justify-content: center;
+                                                            }
+                                                            .itemj6-dt {
+                                                                    display: flex;
+                                                                    position: absolute;
+                                                                    top: 72%;
+                                                                    left: 250px;
+                                                                    text-align: center;
+                                                            }
+                                                            .linej6 {
+                                                                    width: 200px;
+                                                                    height: 4px;
+                                                                    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+                                                                    background-size: 7px;
+                                                                    display: block;
+                                                                    border-radius: 50%;
+                                                            }
+                                                            .costj6 {
+                                                                    left: 220px;
+                                                                    top: -15px;
+                                                                    position: absolute;
+                                                                    width: 30px;
+                                                                    height: 30px;
+                                                                    background-color: yellow;
+                                                                    border-radius: 50%;
+                                                                    color: black;
+                                                                    font-family: cursive;
+                                                                    display: block;
+                                                                    justify-content: center;
+                                                            }
+                                                            .itemj7-dt {
+                                                                    display: flex;
+                                                                    position: absolute;
+                                                                    top: 82%;
+                                                                    left: 250px;
+                                                                    text-align: center;
+                                                            }
+                                                            .linej7 {
+                                                                    width: 200px;
+                                                                    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costj7 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemj8-dt {
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 250px;
+    text-align: center;
+}
+.linej8 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costj8 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}  
+.itemk-dt {
+    display: flex;
+    position: absolute;
+    top: 13%;
+    left: 180px;
+    text-align: center;
+}
+.linek {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costk {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemk1-dt {
+    display: flex;
+    position: absolute;
+    top: 28%;
+    left: 180px;
+    text-align: center;
+}
+.linek1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costk1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemk2-dt {
+    display: flex;
+    position: absolute;
+    top: 42%;
+    left: 180px;
+    text-align: center;
+}
+.linek2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costk2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemk3-dt {
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 180px;
+    text-align: center;
+}
+.linek3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costk3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemk4-dt {
+    display: flex;
+    position: absolute;
+    top: 73%;
+    left: 180px;
+    text-align: center;
+}
+.linek4 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costk4 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemk5-dt {
+    display: flex;
+    position: absolute;
+    top: 89%;
+    left: 180px;
+    text-align: center;
+}
+.linek5 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costk5 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+} 
+.iteml-dt {
+    display: flex;
+    position: absolute;
+    top: 6%;
+    left: 250px;
+    text-align: center;
+}
+.linel {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml1-dt {
+    display: flex;
+    position: absolute;
+    top: 13.5%;
+    left: 250px;
+    text-align: center;
+}
+.linel1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml2-dt {
+    display: flex;
+    position: absolute;
+    top: 21%;
+    left: 250px;
+    text-align: center;
+}
+.linel2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml3-dt {
+    display: flex;
+    position: absolute;
+    top: 28%;
+    left: 250px;
+    text-align: center;
+}
+.linel3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml4-dt {
+    display: flex;
+    position: absolute;
+    top: 36%;
+    left: 250px;
+    text-align: center;
+}
+.linel4 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl4 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml5-dt {
+    display: flex;
+    position: absolute;
+    top: 43%;
+    left: 250px;
+    text-align: center;
+}
+.linel5 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl5 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml6-dt {
+    display: flex;
+    position: absolute;
+    top: 51%;
+    left: 250px;
+    text-align: center;
+}
+.linel6 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl6 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml7-dt {
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 250px;
+    text-align: center;
+}
+.linel7 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl7 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml8-dt {
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 250px;
+    text-align: center;
+}
+.linel8 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl8 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml9-dt {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 250px;
+    text-align: center;
+}
+.linel9 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl9 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml10-dt {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 250px;
+    text-align: center;
+}
+.linel10 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl10 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml11-dt {
+    display: flex;
+    position: absolute;
+    top: 87%;
+    left: 250px;
+    text-align: center;
+}
+.linel11 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl11 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.iteml12-dt {
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 250px;
+    text-align: center;
+}
+.linel12 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costl12 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemm-dt {
+    display: flex;
+    position: absolute;
+    top: 31.5%;
+    left: 250px;
+    text-align: center;
+}
+.linem {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costm {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemm1-dt {
+    display: flex;
+    position: absolute;
+    top: 69%;
+    left: 250px;
+    text-align: center;
+}
+.linem1 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costm1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemn-dt {
+    display: flex;
+    position: absolute;
+    top: 14%;
+    left: 280px;
+    text-align: center;
+}
+.linen {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costn {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemn1-dt {
+    display: flex;
+    position: absolute;
+    top: 31.5%;
+    left: 280px;
+    text-align: center;
+}
+.lin {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costn1 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemn2-dt {
+    display: flex;
+    position: absolute;
+    top: 49%;
+    left: 280px;
+    text-align: center;
+}
+.linen2 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costn2 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemn3-dt {
+    display: flex;
+    position: absolute;
+    top: 66%;
+    left: 280px;
+    text-align: center;
+}
+.linen3 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costn3 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.itemn4-dt {
+    display: flex;
+    position: absolute;
+    top: 83%;
+    left: 280px;
+    text-align: center;
+}
+.linen4 {
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right, yellow 50%, transparent 50%);
+    background-size: 7px;
+    display: block;
+    border-radius: 50%;
+}
+.costn4 {
+    left: 220px;
+    top: -15px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    font-family: cursive;
+    display: block;
+    justify-content: center;
+}
+.con-span::after {
+    content: "(blueberry, missflora, watermelon, grandin, kiwi)";
+    font-size: 12px;
+    color: yellow;
+    display: block;
+}                                                                                                                                                                                                                                                                                                                                                  
+.mfr {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border: 10px double yellow;
+    left: 1%;
+    top: 97%;
+    font-size: 30pt;
+    z-index: 10;
+    width: 95%;
+}
+.mfr1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border: 10px double yellow;
+    left: 1%;
+    top: 94%;
+    font-size: 30pt;
+    z-index: 10;
+    width: 95%;
+}                        
+footer{
+    background: linear-gradient(to top,black 90%, rgb(51, 51, 51) 10%);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fp{
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+.fp .phnumber {
+    color: blue;
+    margin-left: 3px;
+}
+.fp a {
+    display: inline-block;
+}
+.fp img {
+    width: 20px;
+    height: 20px;
+}
+.fp .fatext {
+    color: blue;
+    margin-left: 5px;
+}
+.fp .instatext {
+    color: blue;
+    margin-left: 5px;
+}

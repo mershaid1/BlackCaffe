@@ -1,0 +1,192 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.scrollbar {
+    overflow: hidden;
+}
+header {
+background: linear-gradient(to bottom, black 80%,rgb(85, 85, 85) 15%);	
+padding: 1px;
+display: block;
+width: 100%;
+height: 120px;
+position: relative;
+z-index: 10;
+}
+.logo1 {
+    z-index: 10;
+    order: 1;
+}
+header .h1b {
+color: white;
+top: 20px;
+left: 200px;
+justify-content: center;
+position: absolute;
+font-family: cursive;
+border-top: 2px solid;
+border-image: linear-gradient(to right, white 10%, transparent 90%);
+border-image-slice: 1;
+cursor: default;
+}
+.dir {
+position: absolute;
+top: 85px;
+left: 200px;
+padding: 0;   
+display: flex;
+text-align: left;
+list-style: none;
+}
+nav  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: large;
+    border-right: 3px solid black;
+    padding-right: 10px;
+}
+nav a:hover {
+    color: black;  
+    position: relative; 
+}
+.smi {
+position: absolute;
+top: 30px;
+right: 20px;
+padding: 0;   
+display: inline-block;
+}
+.smi img {
+width: 20px;
+height: 20px;
+margin-right: 20px;
+}
+section {
+    position: absolute;
+    height: 131%;
+    background-color: black;
+    overflow: hidden;
+    z-index: -1;
+}
+.container {
+    display: flex;
+}
+.vd1 {
+    flex-basis: 30%;
+}
+.vd1d {
+    width: 100%;
+    height: 50%;
+    margin-top: 6%;
+}
+section h2{
+    border: 4px double yellow;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+#Menu {
+    background-color: transparent;
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1em 1.5em;
+    border-radius: 100px;
+    font-size: 13pt;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 4%;
+    width: 97%;
+}
+#Menu::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: red;
+    border-radius: 100vmax;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+#Menu:hover {
+    box-shadow: 5px 5px 20px yellow;
+    color: white;
+    background-color: black;
+}
+section h1{
+    border: 4px double yellow;
+    text-align: center;
+    font-size: 22pt;
+    font-family: cursive;
+}
+.con1 {
+    flex-basis: 70%;
+    color: white;
+    text-align: start;
+    align-items: start;
+    font-size: 18pt;
+    margin-top: 6%;
+    padding: 1%;
+}
+#img-f1 {
+    transition: all 0.3s ease;
+    z-index: 10;
+    margin: 2%;
+}
+#img-f1:hover {
+    transform: scale(1.4);
+}
+.mfr {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border: 10px double yellow;
+    left: 1%;
+    top: 97%;
+    z-index: 10;
+    width: 95%;
+    z-index: -1;
+}
+footer{
+    background: linear-gradient(to top,black 90%, rgb(51, 51, 51) 10%);
+    width: 100%;
+    left: 0;
+    top: 152%;
+    position: absolute;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fp{
+color: white;
+font-size: 12pt;
+text-align: center;
+font-family: 'Lucida Sans';
+}
+.fp .phnumber {
+color: blue;
+margin-left: 4px;
+}
+.fp a {
+display: inline-block;
+}
+.fp img {
+width: 4%;
+height: 4%;
+}
+.fp .fatext {
+color: blue;
+margin-left: 1%;
+}
+.fp .instatext {
+color: blue;
+margin-left: 1%;
+}
